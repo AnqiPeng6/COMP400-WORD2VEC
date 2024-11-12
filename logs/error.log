@@ -1,0 +1,412 @@
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 17, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 11, in main
+    await update_trending_comments()
+  File "/Users/anqi/TikTok-Api/SelfLearning/word2vec.py", line 36, in update_trending_comments
+    all_comments = await get_comments_for_videos(video_ids)
+  File "/Users/anqi/TikTok-Api/SelfLearning/get_comments.py", line 78, in get_comments_for_videos
+    async for comment in video.comments(count=30):
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/api/video.py", line 264, in comments
+    resp = await self.parent.make_request(
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/tiktok.py", line 455, in make_request
+    raise EmptyResponseException(result, "TikTok returned an empty response")
+TikTokApi.exceptions.EmptyResponseException: None -> TikTok returned an empty response
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 17, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 11, in main
+    await update_trending_comments()
+  File "/Users/anqi/TikTok-Api/SelfLearning/word2vec.py", line 36, in update_trending_comments
+    all_comments = await get_comments_for_videos(video_ids)
+  File "/Users/anqi/TikTok-Api/SelfLearning/get_comments.py", line 78, in get_comments_for_videos
+    async for comment in video.comments(count=30):
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/api/video.py", line 264, in comments
+    resp = await self.parent.make_request(
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/tiktok.py", line 455, in make_request
+    raise EmptyResponseException(result, "TikTok returned an empty response")
+TikTokApi.exceptions.EmptyResponseException: None -> TikTok returned an empty response
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 17, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 11, in main
+    await update_trending_comments()
+  File "/Users/anqi/TikTok-Api/SelfLearning/word2vec.py", line 36, in update_trending_comments
+    all_comments = await get_comments_for_videos(video_ids)
+  File "/Users/anqi/TikTok-Api/SelfLearning/get_comments.py", line 78, in get_comments_for_videos
+    async for comment in video.comments(count=30):
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/api/video.py", line 264, in comments
+    resp = await self.parent.make_request(
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/tiktok.py", line 455, in make_request
+    raise EmptyResponseException(result, "TikTok returned an empty response")
+TikTokApi.exceptions.EmptyResponseException: None -> TikTok returned an empty response
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16)
+Emitted 'error' event on Socket instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+}
+
+Node.js v18.17.0
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 17, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 11, in main
+    await update_trending_comments()
+  File "/Users/anqi/TikTok-Api/SelfLearning/word2vec.py", line 36, in update_trending_comments
+    all_comments = await get_comments_for_videos(video_ids)
+  File "/Users/anqi/TikTok-Api/SelfLearning/get_comments.py", line 78, in get_comments_for_videos
+    async for comment in video.comments(count=30):
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/api/video.py", line 264, in comments
+    resp = await self.parent.make_request(
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/tiktok.py", line 455, in make_request
+    raise EmptyResponseException(result, "TikTok returned an empty response")
+TikTokApi.exceptions.EmptyResponseException: None -> TikTok returned an empty response
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 17, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 11, in main
+    await update_trending_comments()
+  File "/Users/anqi/TikTok-Api/SelfLearning/word2vec.py", line 36, in update_trending_comments
+    all_comments = await get_comments_for_videos(video_ids)
+  File "/Users/anqi/TikTok-Api/SelfLearning/get_comments.py", line 78, in get_comments_for_videos
+    async for comment in video.comments(count=30):
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/api/video.py", line 264, in comments
+    resp = await self.parent.make_request(
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/tiktok.py", line 455, in make_request
+    raise EmptyResponseException(result, "TikTok returned an empty response")
+TikTokApi.exceptions.EmptyResponseException: None -> TikTok returned an empty response
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 17, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 11, in main
+    await update_trending_comments()
+  File "/Users/anqi/TikTok-Api/SelfLearning/word2vec.py", line 36, in update_trending_comments
+    all_comments = await get_comments_for_videos(video_ids)
+  File "/Users/anqi/TikTok-Api/SelfLearning/get_comments.py", line 78, in get_comments_for_videos
+    async for comment in video.comments(count=30):
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/api/video.py", line 264, in comments
+    resp = await self.parent.make_request(
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/tiktok.py", line 455, in make_request
+    raise EmptyResponseException(result, "TikTok returned an empty response")
+TikTokApi.exceptions.EmptyResponseException: None -> TikTok returned an empty response
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16)
+Emitted 'error' event on Socket instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+}
+
+Node.js v18.17.0
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 17, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 11, in main
+    await update_trending_comments()
+  File "/Users/anqi/TikTok-Api/SelfLearning/word2vec.py", line 36, in update_trending_comments
+    all_comments = await get_comments_for_videos(video_ids)
+  File "/Users/anqi/TikTok-Api/SelfLearning/get_comments.py", line 78, in get_comments_for_videos
+    async for comment in video.comments(count=30):
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/api/video.py", line 276, in comments
+    for video in resp.get("comments", []):
+TypeError: 'NoneType' object is not iterable
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 17, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 11, in main
+    await update_trending_comments()
+  File "/Users/anqi/TikTok-Api/SelfLearning/word2vec.py", line 36, in update_trending_comments
+    all_comments = await get_comments_for_videos(video_ids)
+  File "/Users/anqi/TikTok-Api/SelfLearning/get_comments.py", line 78, in get_comments_for_videos
+    async for comment in video.comments(count=30):
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/api/video.py", line 276, in comments
+    for video in resp.get("comments", []):
+TypeError: 'NoneType' object is not iterable
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+node:events:492
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: write EPIPE
+    at WriteWrap.onWriteComplete [as oncomplete] (node:internal/stream_base_commons:94:16)
+Emitted 'error' event on Socket instance at:
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -32,
+  code: 'EPIPE',
+  syscall: 'write'
+}
+
+Node.js v18.17.0
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 17, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 11, in main
+    await update_trending_comments()
+  File "/Users/anqi/TikTok-Api/SelfLearning/word2vec.py", line 36, in update_trending_comments
+    all_comments = await get_comments_for_videos(video_ids)
+  File "/Users/anqi/TikTok-Api/SelfLearning/get_comments.py", line 78, in get_comments_for_videos
+    async for comment in video.comments(count=30):
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/api/video.py", line 276, in comments
+    for video in resp.get("comments", []):
+TypeError: 'NoneType' object is not iterable
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2024-11-12 13:40:23,441 - TikTokApi.tiktok - ERROR - Failed to create Sound with data: {'ExploreCategoryType': 120, 'containerType': 2, 'createTime': 0, 'desc': '', 'digged': False, 'forFriend': False, 'id': '', 'itemCommentStatus': 0, 'liveRoomInfo': {'coverUrl': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/fc57e20691076b48acb9477e019ac11c~c5_720x720.webp?lk3s=a5d48078&nonce=71667&refresh_token=166b83a580d81db5b666d4baaea2f7be&x-expires=1731607200&x-signature=vBBRP3%2BjtO7Uc8BcDU7WWStjxK4%3D&shp=a5d48078&shcp=fdd36af4', 'followStatus': 0, 'fypRoomTag': {'tag': [{'content': 'LIVE now', 'da_info': '', 'id': 4, 'recommond_info': '', 'style': 1}]}, 'landscape': 2, 'likeCount': 33, 'liveRoomStats': {'userCount': 2}, 'liveSubOnly': 0, 'liveUrl': '', 'mode': 0, 'ownerInfo': {'avatarLarger': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/fc57e20691076b48acb9477e019ac11c~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=41919&refresh_token=8e709f0a83ca5e2a7ab35e99e24bef2b&x-expires=1731607200&x-signature=sJWMhtJWVRTif3IJ1IdoPhltkdk%3D&shp=a5d48078&shcp=81f88b70', 'avatarMedium': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/fc57e20691076b48acb9477e019ac11c~c5_720x720.jpeg?lk3s=a5d48078&nonce=64472&refresh_token=bc07fa7243143cf47c964428c69eeaca&x-expires=1731607200&x-signature=xbYBmZ6lhBoAyBpmLixoqGLFEgY%3D&shp=a5d48078&shcp=81f88b70', 'avatarThumb': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/fc57e20691076b48acb9477e019ac11c~c5_100x100.jpeg?lk3s=a5d48078&nonce=93925&refresh_token=fd5c0c19e6be800aebc29e169f2c79be&x-expires=1731607200&x-signature=5NAzYb9bDUOHYvGxKxZX617eJzk%3D&shp=a5d48078&shcp=81f88b70', 'ftc': False, 'id': '7297587521452524549', 'nickname': 'MissCherry🍒TAPASDEQUIPEqwa❓️', 'openFavorite': False, 'privateAccount': False, 'relation': 0, 'secret': False, 'signature': '', 'uniqueId': 'misscherryy27', 'verified': False}, 'roomID': '7436462778545294136', 'shareCount': 2, 'status': 2, 'streamData': '{"common":{"session_id":"000-20241112184020E68EFA60ACC0493F9E68","rule_ids":"{\\"ab_version_trace\\":null,\\"sched\\":\\"{\\\\\\"result\\\\\\":{\\\\\\"cdn\\\\\\":107,\\\\\\"hit\\\\\\":\\\\\\"default\\\\\\"}}\\"}","query":{"global_720p":"v2","infos":"d4a4f09db003ad538a7bad94c4075f9126c13f28f3f2c49f923d980de3f4"},"peer_anchor_level":2},"data":{"origin":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_or4.flv?expire=1732646422\\u0026sign=91a99f7dc452e159c64d6faabfe653f9","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498494835589193_or4/index.m3u8?expire=1732646422\\u0026sign=0f1ddded575bdcc1cd836f31a552b458","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_or4/index.mpd?expire=1732646422\\u0026sign=ceaab6d6f2a8f1598098983e043feca1","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_or4.sdp?expire=1732646422\\u0026sign=97de8362ba5bbb4b46355d347d59b557","tsl":"","tile":"","sdk_params":"{\\"stream_suffix\\":\\"or4\\",\\"VCodec\\":\\"h264\\",\\"vbitrate\\":1000000,\\"resolution\\":\\"720x1280\\",\\"gop\\":4}"}},"sd":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_sd.flv?expire=1732646422\\u0026sign=b815934d0ce2eba8cc989a0d2c90e06d","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498494835589193_sd/index.m3u8?expire=1732646422\\u0026sign=805278a69bbb50e3dcb26e47e6f34990","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_sd/index.mpd?expire=1732646422\\u0026sign=41ebb9b059ec2abfc119380006a65bdd","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_sd.sdp?expire=1732646422\\u0026sign=7ea98b8ab45dbde9ef597aa67877ae77","tsl":"","tile":"","sdk_params":"{\\"VCodec\\":\\"h264\\",\\"vbitrate\\":800000,\\"resolution\\":\\"480x853\\",\\"gop\\":0,\\"stream_suffix\\":\\"sd\\"}"}},"ld":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_ld.flv?expire=1732646422\\u0026sign=def3a52613598199522c091eb1980256","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498494835589193_ld/index.m3u8?expire=1732646422\\u0026sign=98165c9013c7f63fca132d556c4f648e","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_ld/index.mpd?expire=1732646422\\u0026sign=93204b1d2e6ea48ca0e198655e0fa137","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_ld.sdp?expire=1732646422\\u0026sign=29fe5f23080f74cab7bb034726185b17","tsl":"","tile":"","sdk_params":"{\\"stream_suffix\\":\\"ld\\",\\"VCodec\\":\\"h264\\",\\"vbitrate\\":500000,\\"resolution\\":\\"480x853\\",\\"gop\\":0}"}},"hd":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_hd.flv?expire=1732646422\\u0026sign=b304e511bea30aab1f9e161e9a0350ad","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498494835589193_hd/index.m3u8?expire=1732646422\\u0026sign=10e78e99a3ca0ceb7b02569a598fbffd","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_hd/index.mpd?expire=1732646422\\u0026sign=aa05ad8d8d063bdcd519227e9d375391","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_hd.sdp?expire=1732646422\\u0026sign=60cb6a81f88cd6b0facb4eefaac0a33e","tsl":"","tile":"","sdk_params":"{\\"VCodec\\":\\"h264\\",\\"resolution\\":\\"540x960\\",\\"gop\\":0,\\"stream_suffix\\":\\"hd\\",\\"vbitrate\\":1000000}"}},"uhd":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_uhd.flv?expire=1732646422\\u0026sign=cd6eb9756ff1747cc8f6c69968532b4c","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498494835589193_uhd/index.m3u8?expire=1732646422\\u0026sign=9de5dfd54efd23c774f46976b09c5e35","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_uhd/index.mpd?expire=1732646422\\u0026sign=55250762117bc7d2b874b0c3b48da5ce","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_uhd.sdp?expire=1732646422\\u0026sign=f66ce218ea2332f710e703b7b313ea51","tsl":"","tile":"","sdk_params":"{\\"VCodec\\":\\"h264\\",\\"vbitrate\\":1000000,\\"resolution\\":\\"720x1280\\",\\"gop\\":0,\\"stream_suffix\\":\\"uhd\\"}"}},"ao":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193.flv?expire=1732646422\\u0026sign=f61b460beeaee00328eeee836f2a6b07\\u0026only_audio=1","hls":"","cmaf":"","dash":"","lls":"","tsl":"","tile":"","sdk_params":"{\\"resolution\\":\\"\\",\\"gop\\":4,\\"VCodec\\":\\"h264\\",\\"vbitrate\\":0}"}}}}', 'title': "10k boite d'oeuf sa tete letsgo?"}, 'officalItem': False, 'originalItem': False, 'privateItem': False, 'secret': False}
+
+2024-11-12 13:40:43,309 - TikTokApi.tiktok - ERROR - Got an unexpected status code: {'log_pb': {'impr_id': '202411121840421FD9318A3793573D6B00'}, 'status_code': 5, 'status_msg': ''}
+2024-11-12 13:40:43,309 - TikTokApi.tiktok - ERROR - Got an unexpected status code: {'log_pb': {'impr_id': '202411121840421FD9318A3793573D6B00'}, 'status_code': 5, 'status_msg': ''}
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 17, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 11, in main
+    await update_trending_comments()
+  File "/Users/anqi/TikTok-Api/SelfLearning/word2vec.py", line 36, in update_trending_comments
+    all_comments = await get_comments_for_videos(video_ids)
+  File "/Users/anqi/TikTok-Api/SelfLearning/get_comments.py", line 78, in get_comments_for_videos
+    async for comment in video.comments(count=30):
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/api/video.py", line 276, in comments
+    for video in resp.get("comments", []):
+TypeError: 'NoneType' object is not iterable
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 17, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 11, in main
+    await update_trending_comments()
+  File "/Users/anqi/TikTok-Api/SelfLearning/word2vec.py", line 36, in update_trending_comments
+    all_comments = await get_comments_for_videos(video_ids)
+  File "/Users/anqi/TikTok-Api/SelfLearning/get_comments.py", line 78, in get_comments_for_videos
+    async for comment in video.comments(count=30):
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/api/video.py", line 276, in comments
+    for video in resp.get("comments", []):
+TypeError: 'NoneType' object is not iterable
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2024-11-12 13:47:06,170 - TikTokApi.tiktok - ERROR - Failed to create Sound with data: {'ExploreCategoryType': 120, 'containerType': 2, 'createTime': 0, 'desc': '', 'digged': False, 'forFriend': False, 'id': '', 'itemCommentStatus': 0, 'liveRoomInfo': {'coverUrl': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/fc57e20691076b48acb9477e019ac11c~c5_720x720.webp?lk3s=a5d48078&nonce=15288&refresh_token=393d63729bcd716c55646f8b85ba2602&x-expires=1731607200&x-signature=vBBRP3%2BjtO7Uc8BcDU7WWStjxK4%3D&shp=a5d48078&shcp=fdd36af4', 'followStatus': 0, 'fypRoomTag': {'tag': [{'content': 'LIVE now', 'da_info': '', 'id': 4, 'recommond_info': '', 'style': 1}]}, 'landscape': 2, 'likeCount': 104, 'liveRoomStats': {'userCount': 2}, 'liveSubOnly': 0, 'liveUrl': '', 'mode': 0, 'ownerInfo': {'avatarLarger': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/fc57e20691076b48acb9477e019ac11c~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=76572&refresh_token=1cacfb3fafae5ad80ea3a27f49dc5e78&x-expires=1731607200&x-signature=sJWMhtJWVRTif3IJ1IdoPhltkdk%3D&shp=a5d48078&shcp=81f88b70', 'avatarMedium': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/fc57e20691076b48acb9477e019ac11c~c5_720x720.jpeg?lk3s=a5d48078&nonce=10478&refresh_token=45d9061cc87341b00612ad1100a9ce67&x-expires=1731607200&x-signature=xbYBmZ6lhBoAyBpmLixoqGLFEgY%3D&shp=a5d48078&shcp=81f88b70', 'avatarThumb': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/fc57e20691076b48acb9477e019ac11c~c5_100x100.jpeg?lk3s=a5d48078&nonce=30888&refresh_token=301d99c551029b8521669e8befdadecd&x-expires=1731607200&x-signature=5NAzYb9bDUOHYvGxKxZX617eJzk%3D&shp=a5d48078&shcp=81f88b70', 'ftc': False, 'id': '7297587521452524549', 'nickname': 'MissCherry🍒TAPASDEQUIPEqwa❓️', 'openFavorite': False, 'privateAccount': False, 'relation': 0, 'secret': False, 'signature': '', 'uniqueId': 'misscherryy27', 'verified': False}, 'roomID': '7436462778545294136', 'shareCount': 5, 'status': 2, 'streamData': '{"common":{"session_id":"000-202411121847022C1AF1A9CC958640175E","rule_ids":"{\\"ab_version_trace\\":null,\\"sched\\":\\"{\\\\\\"result\\\\\\":{\\\\\\"hit\\\\\\":\\\\\\"default\\\\\\",\\\\\\"cdn\\\\\\":107}}\\"}","query":{"global_720p":"v2","infos":"e9252bf9f95c86fd53099db97dcdfefa3285b51306d91468e0b3a9d0fa06"},"peer_anchor_level":2},"data":{"uhd":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_uhd.flv?expire=1732646824\\u0026sign=d36905ee2ab9b7fe86cbfd034ef56623","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498494835589193_uhd/index.m3u8?expire=1732646824\\u0026sign=3b9af5b877fb8aa2aedf45d64b53fceb","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_uhd/index.mpd?expire=1732646824\\u0026sign=0e7f6dfb36ac7d9d70952277cb287ec0","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_uhd.sdp?expire=1732646824\\u0026sign=64bf4d70d6b48044fe4d64bc1de4123c","tsl":"","tile":"","sdk_params":"{\\"VCodec\\":\\"h264\\",\\"gop\\":0,\\"stream_suffix\\":\\"uhd\\",\\"vbitrate\\":1000000,\\"resolution\\":\\"720x1280\\"}"}},"ao":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193.flv?expire=1732646824\\u0026sign=861df3e433a677008c5444e4cacde1d0\\u0026only_audio=1","hls":"","cmaf":"","dash":"","lls":"","tsl":"","tile":"","sdk_params":"{\\"vbitrate\\":0,\\"resolution\\":\\"\\",\\"gop\\":4,\\"VCodec\\":\\"h264\\"}"}},"origin":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_or4.flv?expire=1732646824\\u0026sign=0517f105886b0968b05c33fb557319a1","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498494835589193_or4/index.m3u8?expire=1732646824\\u0026sign=fbce21ef4b995c3dcbae85255d358377","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_or4/index.mpd?expire=1732646824\\u0026sign=2a5f6d1dfa826006902553aa03bfab16","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_or4.sdp?expire=1732646824\\u0026sign=e76674fad1a544bb73541adacee4f285","tsl":"","tile":"","sdk_params":"{\\"resolution\\":\\"720x1280\\",\\"gop\\":4,\\"v_rtbitrate\\":1231220,\\"VCodec\\":\\"h264\\",\\"v_rtpsnr\\":0,\\"v_rtbitrate_timestamp\\":1731436915029,\\"stream_suffix\\":\\"or4\\",\\"vbitrate\\":1000000}"}},"sd":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_sd.flv?expire=1732646824\\u0026sign=915550f72f9e418723fa8ebce5befb7d","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498494835589193_sd/index.m3u8?expire=1732646824\\u0026sign=047399bea4e9a8489ab64c5232cee0e9","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_sd/index.mpd?expire=1732646824\\u0026sign=fc46a4080364ff52393c55c0352264f6","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_sd.sdp?expire=1732646824\\u0026sign=160b2d6a6486d0f35469b8391cc5f07d","tsl":"","tile":"","sdk_params":"{\\"vbitrate\\":800000,\\"VCodec\\":\\"h264\\",\\"resolution\\":\\"480x853\\",\\"gop\\":0,\\"stream_suffix\\":\\"sd\\"}"}},"ld":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_ld.flv?expire=1732646824\\u0026sign=b1e51d1f9b9ee0772e30c4a6edea995f","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498494835589193_ld/index.m3u8?expire=1732646824\\u0026sign=183360555804a761531281850ef9e27e","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_ld/index.mpd?expire=1732646824\\u0026sign=0819bc7e7f655858895099df68550d36","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_ld.sdp?expire=1732646824\\u0026sign=b7610f3a20798281cca75b537ad47762","tsl":"","tile":"","sdk_params":"{\\"gop\\":0,\\"stream_suffix\\":\\"ld\\",\\"vbitrate\\":500000,\\"resolution\\":\\"480x853\\",\\"VCodec\\":\\"h264\\"}"}},"hd":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_hd.flv?expire=1732646824\\u0026sign=25b68ef7c3ede15c771f847ad894805e","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498494835589193_hd/index.m3u8?expire=1732646824\\u0026sign=27fcc2e0b9bb6c9cd1cc604dff3285c9","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_hd/index.mpd?expire=1732646824\\u0026sign=1a8d45d1850ab48e7205085f91527eb9","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_hd.sdp?expire=1732646824\\u0026sign=86a36830b306170cdafb5c81f101f30e","tsl":"","tile":"","sdk_params":"{\\"resolution\\":\\"540x960\\",\\"gop\\":0,\\"VCodec\\":\\"h264\\",\\"stream_suffix\\":\\"hd\\",\\"vbitrate\\":1000000}"}}}}', 'title': "10k boite d'oeuf sa tete letsgo?"}, 'officalItem': False, 'originalItem': False, 'privateItem': False, 'secret': False}
+
+2024-11-12 13:47:26,971 - TikTokApi.tiktok - ERROR - Got an unexpected status code: {'log_pb': {'impr_id': '20241112184725AFF52A497157ED3FCD80'}, 'status_code': 5, 'status_msg': ''}
+2024-11-12 13:47:26,971 - TikTokApi.tiktok - ERROR - Got an unexpected status code: {'log_pb': {'impr_id': '20241112184725AFF52A497157ED3FCD80'}, 'status_code': 5, 'status_msg': ''}
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 17, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 11, in main
+    await update_trending_comments()
+  File "/Users/anqi/TikTok-Api/SelfLearning/word2vec.py", line 36, in update_trending_comments
+    all_comments = await get_comments_for_videos(video_ids)
+  File "/Users/anqi/TikTok-Api/SelfLearning/get_comments.py", line 78, in get_comments_for_videos
+    async for comment in video.comments(count=30):
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/api/video.py", line 277, in comments
+    yield self.parent.comment(data=video)
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/api/comment.py", line 41, in __init__
+    self.__extract_from_data()
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/api/comment.py", line 50, in __extract_from_data
+    user_id=usr["uid"], username=usr["unique_id"], sec_uid=usr["sec_uid"]
+KeyError: 'unique_id'
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 17, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 11, in main
+    await update_trending_comments()
+  File "/Users/anqi/TikTok-Api/SelfLearning/word2vec.py", line 36, in update_trending_comments
+    all_comments = await get_comments_for_videos(video_ids)
+  File "/Users/anqi/TikTok-Api/SelfLearning/get_comments.py", line 78, in get_comments_for_videos
+    async for comment in video.comments(count=30):
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/api/video.py", line 276, in comments
+    for video in resp.get("comments", []):
+TypeError: 'NoneType' object is not iterable
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2024-11-12 13:52:52,716 - TikTokApi.tiktok - ERROR - Failed to create Sound with data: {'ExploreCategoryType': 120, 'containerType': 2, 'createTime': 0, 'desc': '', 'digged': False, 'forFriend': False, 'id': '', 'itemCommentStatus': 0, 'liveRoomInfo': {'coverUrl': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/fc57e20691076b48acb9477e019ac11c~c5_720x720.webp?lk3s=a5d48078&nonce=26015&refresh_token=b6aa4cc514d3fa96f00943bd6be2d688&x-expires=1731607200&x-signature=vBBRP3%2BjtO7Uc8BcDU7WWStjxK4%3D&shp=a5d48078&shcp=fdd36af4', 'followStatus': 0, 'fypRoomTag': {'tag': [{'content': 'LIVE now', 'da_info': '', 'id': 4, 'recommond_info': '', 'style': 1}]}, 'landscape': 2, 'likeCount': 321, 'liveRoomStats': {'userCount': 6}, 'liveSubOnly': 0, 'liveUrl': '', 'mode': 0, 'ownerInfo': {'avatarLarger': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/fc57e20691076b48acb9477e019ac11c~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=19642&refresh_token=aee4e14c6c7bf94be6776b335fcc3c82&x-expires=1731607200&x-signature=sJWMhtJWVRTif3IJ1IdoPhltkdk%3D&shp=a5d48078&shcp=81f88b70', 'avatarMedium': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/fc57e20691076b48acb9477e019ac11c~c5_720x720.jpeg?lk3s=a5d48078&nonce=25766&refresh_token=1ccac63771e26b03b33bc66608bf9373&x-expires=1731607200&x-signature=xbYBmZ6lhBoAyBpmLixoqGLFEgY%3D&shp=a5d48078&shcp=81f88b70', 'avatarThumb': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/fc57e20691076b48acb9477e019ac11c~c5_100x100.jpeg?lk3s=a5d48078&nonce=47129&refresh_token=146a90465cef208a15fd84a11cdef90e&x-expires=1731607200&x-signature=5NAzYb9bDUOHYvGxKxZX617eJzk%3D&shp=a5d48078&shcp=81f88b70', 'ftc': False, 'id': '7297587521452524549', 'nickname': 'MissCherry🍒TAPASDEQUIPEqwa❓️', 'openFavorite': False, 'privateAccount': False, 'relation': 0, 'secret': False, 'signature': '', 'uniqueId': 'misscherryy27', 'verified': False}, 'roomID': '7436462778545294136', 'shareCount': 5, 'status': 2, 'streamData': '{"common":{"session_id":"000-202411121852492EA76BC86D4D834067A8","rule_ids":"{\\"ab_version_trace\\":null,\\"sched\\":\\"{\\\\\\"result\\\\\\":{\\\\\\"hit\\\\\\":\\\\\\"default\\\\\\",\\\\\\"cdn\\\\\\":107}}\\"}","query":{"global_720p":"v2","infos":"a5d63421410ea7d687f38d768718845f0b7437ed33b7cc0aa2e2aa1d1629"},"peer_anchor_level":2},"data":{"uhd":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_uhd.flv?expire=1732647171\\u0026sign=343e5b6102933018f40886daca6259f8","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498494835589193_uhd/index.m3u8?expire=1732647171\\u0026sign=32abd7a654bf8a4731533ecaba10355c","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_uhd/index.mpd?expire=1732647171\\u0026sign=f9b13b406ef4e42bcd97781207b3aeeb","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_uhd.sdp?expire=1732647171\\u0026sign=b727243c9cc31589c442c024e6f2bab6","tsl":"","tile":"","sdk_params":"{\\"VCodec\\":\\"h264\\",\\"gop\\":0,\\"stream_suffix\\":\\"uhd\\",\\"vbitrate\\":1000000,\\"resolution\\":\\"720x1280\\"}"}},"ao":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193.flv?expire=1732647171\\u0026sign=c1fbe0424f645165296ebbeb63d2ac75\\u0026only_audio=1","hls":"","cmaf":"","dash":"","lls":"","tsl":"","tile":"","sdk_params":"{\\"VCodec\\":\\"h264\\",\\"resolution\\":\\"\\",\\"gop\\":4,\\"vbitrate\\":0}"}},"origin":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_or4.flv?expire=1732647171\\u0026sign=0ced967d9b82582b7bf6369d9552976f","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498494835589193_or4/index.m3u8?expire=1732647171\\u0026sign=e8826bcec10b5abb14d05c79e5b22046","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_or4/index.mpd?expire=1732647171\\u0026sign=0f50dab0d43ab478ee916b841a400732","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_or4.sdp?expire=1732647171\\u0026sign=993b3f6b93afd09eed286e421173ed19","tsl":"","tile":"","sdk_params":"{\\"stream_suffix\\":\\"or4\\",\\"vbitrate\\":1000000,\\"resolution\\":\\"720x1280\\",\\"gop\\":4,\\"v_rtbitrate\\":2129820,\\"v_rtpsnr\\":0,\\"VCodec\\":\\"h264\\",\\"v_rtbitrate_timestamp\\":1731437225943}"}},"sd":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_sd.flv?expire=1732647171\\u0026sign=0aa2186f6e748c71f4ef4c6bcae2d755","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498494835589193_sd/index.m3u8?expire=1732647171\\u0026sign=67da2aeb507c0d0908ff015ffa7d74fa","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_sd/index.mpd?expire=1732647171\\u0026sign=aaabc25c2f8ffc43b0931a52925032c1","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_sd.sdp?expire=1732647171\\u0026sign=b4fef1fbb4202efe404059afbb6d4a58","tsl":"","tile":"","sdk_params":"{\\"stream_suffix\\":\\"sd\\",\\"vbitrate\\":800000,\\"VCodec\\":\\"h264\\",\\"resolution\\":\\"480x853\\",\\"gop\\":0}"}},"ld":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_ld.flv?expire=1732647171\\u0026sign=79b46d68b2feaa70d3ee19db42f353ae","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498494835589193_ld/index.m3u8?expire=1732647171\\u0026sign=fb8086547845b9fa350ddc9339625ccf","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_ld/index.mpd?expire=1732647171\\u0026sign=86b02e552abab4b05fad0aa0620ab2b8","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_ld.sdp?expire=1732647171\\u0026sign=5ea28500d2ad854d9503a84ee441aea2","tsl":"","tile":"","sdk_params":"{\\"v_rtbitrate_timestamp\\":1731437383549,\\"stream_suffix\\":\\"ld\\",\\"vbitrate\\":500000,\\"resolution\\":\\"480x853\\",\\"gop\\":0,\\"v_rtbitrate\\":501230,\\"VCodec\\":\\"h264\\",\\"v_rtpsnr\\":0}"}},"hd":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_hd.flv?expire=1732647171\\u0026sign=defbeadf0cb04aecd759da64e1922b56","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498494835589193_hd/index.m3u8?expire=1732647171\\u0026sign=236cc8e321679e8f2e7db926d60472bd","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_hd/index.mpd?expire=1732647171\\u0026sign=1b814897c77734563f3707209c2b43b2","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498494835589193_hd.sdp?expire=1732647171\\u0026sign=54f30e56a072fba2afb2b83e3478f87d","tsl":"","tile":"","sdk_params":"{\\"VCodec\\":\\"h264\\",\\"vbitrate\\":1000000,\\"resolution\\":\\"540x960\\",\\"gop\\":0,\\"stream_suffix\\":\\"hd\\"}"}}}}', 'title': "10k boite d'oeuf sa tete letsgo?"}, 'officalItem': False, 'originalItem': False, 'privateItem': False, 'secret': False}
+
+2024-11-12 13:52:54,854 - TikTokApi.tiktok - ERROR - Failed to create Sound with data: {'ExploreCategoryType': 120, 'containerType': 2, 'createTime': 0, 'desc': '', 'digged': False, 'forFriend': False, 'id': '', 'itemCommentStatus': 0, 'liveRoomInfo': {'coverUrl': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3edb6086d897eab8d6761b94f86b6858~c5_720x720.webp?lk3s=a5d48078&nonce=21752&refresh_token=435e6c43f346fa5620ed014630c820ed&x-expires=1731607200&x-signature=%2B9o6UVvQf7Oor5xLfrgqWUWHz1M%3D&shp=a5d48078&shcp=fdd36af4', 'followStatus': 0, 'fypRoomTag': {'tag': [{'content': 'LIVE now', 'da_info': '', 'id': 4, 'recommond_info': '', 'style': 1}]}, 'landscape': 2, 'likeCount': 1837, 'liveRoomStats': {'userCount': 15}, 'liveSubOnly': 0, 'liveUrl': '', 'mode': 0, 'ownerInfo': {'avatarLarger': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3edb6086d897eab8d6761b94f86b6858~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=56260&refresh_token=e83728e2b4d27aa4d4b9f60bf6cb44e6&x-expires=1731607200&x-signature=THZU5FsI41ggypxwOBQZWiOgo5s%3D&shp=a5d48078&shcp=81f88b70', 'avatarMedium': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3edb6086d897eab8d6761b94f86b6858~c5_720x720.jpeg?lk3s=a5d48078&nonce=49508&refresh_token=b28fd98e8166fd292b1a58f25dad1781&x-expires=1731607200&x-signature=7GlZqshtJ2FHxcSDQNhNPCkflLI%3D&shp=a5d48078&shcp=81f88b70', 'avatarThumb': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3edb6086d897eab8d6761b94f86b6858~c5_100x100.jpeg?lk3s=a5d48078&nonce=82627&refresh_token=c198cb512f777f3b99d9e6b554299b53&x-expires=1731607200&x-signature=3wPJASEyfxjmO2kyeZGHFqaHcjs%3D&shp=a5d48078&shcp=81f88b70', 'ftc': False, 'id': '6541468263107269632', 'nickname': 'K l o e _ L a n g l o i s  9 8', 'openFavorite': False, 'privateAccount': False, 'relation': 0, 'secret': False, 'signature': '', 'uniqueId': 'kloe_langlois', 'verified': False}, 'roomID': '7436452970982198071', 'shareCount': 2, 'status': 2, 'streamData': '{"common":{"session_id":"000-20241112185251110007851AC63A4088EE","rule_ids":"{\\"ab_version_trace\\":null,\\"sched\\":\\"{\\\\\\"result\\\\\\":{\\\\\\"hit\\\\\\":\\\\\\"default\\\\\\",\\\\\\"cdn\\\\\\":107}}\\"}","peer_anchor_level":7},"data":{"origin":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_or4.flv?expire=1732647173\\u0026sign=17b339ce489922dd00c83f442758641a","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498340849844297_or4/index.m3u8?expire=1732647173\\u0026sign=e11853b02234610f723d3342b0a8a61a","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_or4/index.mpd?expire=1732647173\\u0026sign=90e6eafa3d5cd716ab7f0e6d232d8f2c","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_or4.sdp?expire=1732647173\\u0026sign=72e90ea92913cbeeb81a2ad90e1cea05","tsl":"","tile":"","sdk_params":"{\\"VCodec\\":\\"h264\\",\\"gop\\":4,\\"stream_suffix\\":\\"or4\\",\\"vbitrate\\":1000000,\\"resolution\\":\\"1080x1920\\"}"}},"sd":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_sd.flv?expire=1732647173\\u0026sign=a9d1246ad3498785c2b570ea7954ec78","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498340849844297_sd/index.m3u8?expire=1732647173\\u0026sign=7dc65f484207bbf4f084c51c2031ad17","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_sd/index.mpd?expire=1732647173\\u0026sign=4124f6c43dcf6f0261409b44ec14c2c6","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_sd.sdp?expire=1732647173\\u0026sign=1e9877709f3c6c1043e1f604ca5bcbf8","tsl":"","tile":"","sdk_params":"{\\"vbitrate\\":800000,\\"resolution\\":\\"480x853\\",\\"VCodec\\":\\"h264\\",\\"gop\\":0,\\"v_rtbitrate\\":829650,\\"v_rtpsnr\\":0,\\"v_rtbitrate_timestamp\\":1731436968739,\\"stream_suffix\\":\\"sd\\"}"}},"ld":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_ld.flv?expire=1732647173\\u0026sign=2c4c89460df68d639880fdec846a4eae","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498340849844297_ld/index.m3u8?expire=1732647173\\u0026sign=6819ed89245fc62b64d191f6966d0681","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_ld/index.mpd?expire=1732647173\\u0026sign=a72f0d3c640733c209641ef121ea275e","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_ld.sdp?expire=1732647173\\u0026sign=af700f165dfb80a5053db6c284d80613","tsl":"","tile":"","sdk_params":"{\\"gop\\":0,\\"VCodec\\":\\"h264\\",\\"stream_suffix\\":\\"ld\\",\\"vbitrate\\":500000,\\"resolution\\":\\"480x853\\"}"}},"hd":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_hd.flv?expire=1732647173\\u0026sign=95cbdc279d44e4b3d3da4d635df1b51c","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498340849844297_hd/index.m3u8?expire=1732647173\\u0026sign=003497d04ccda2b049f7405ccfee0a76","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_hd/index.mpd?expire=1732647173\\u0026sign=39aa308f8228eb4ab930de5288b46fb6","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_hd.sdp?expire=1732647173\\u0026sign=ba0f664650cc0bfaf16262685e2d2a18","tsl":"","tile":"","sdk_params":"{\\"VCodec\\":\\"h264\\",\\"vbitrate\\":1000000,\\"resolution\\":\\"540x960\\",\\"gop\\":0,\\"stream_suffix\\":\\"hd\\"}"}},"uhd":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_uhd.flv?expire=1732647173\\u0026sign=28bd5fd73180addf81c2b3be06665ad7","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498340849844297_uhd/index.m3u8?expire=1732647173\\u0026sign=fbc934d0a6afadfebba919559f6720ef","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_uhd/index.mpd?expire=1732647173\\u0026sign=22ae2485c0e4480a8dd2bc0e0ed2f33a","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_uhd.sdp?expire=1732647173\\u0026sign=28400d531abd3d020c1aeefebc43b3de","tsl":"","tile":"","sdk_params":"{\\"vbitrate\\":1000000,\\"VCodec\\":\\"h264\\",\\"resolution\\":\\"720x1280\\",\\"gop\\":0,\\"v_rtbitrate\\":1025930.0000000001,\\"v_rtpsnr\\":0,\\"v_rtbitrate_timestamp\\":1731434629290,\\"stream_suffix\\":\\"uhd\\"}"}},"ao":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297.flv?expire=1732647173\\u0026sign=43ca92ae710c1b79dda8b363ad0b90d2\\u0026only_audio=1","hls":"","cmaf":"","dash":"","lls":"","tsl":"","tile":"","sdk_params":"{\\"gop\\":4,\\"VCodec\\":\\"h264\\",\\"vbitrate\\":0,\\"resolution\\":\\"\\"}"}}}}', 'title': 'Salut'}, 'officalItem': False, 'originalItem': False, 'privateItem': False, 'secret': False}
+
+2024-11-12 13:53:15,055 - TikTokApi.tiktok - ERROR - Got an unexpected status code: {'log_pb': {'impr_id': '2024111218531329F0F332D3F21B401E8B'}, 'status_code': 5, 'status_msg': ''}
+2024-11-12 13:53:15,055 - TikTokApi.tiktok - ERROR - Got an unexpected status code: {'log_pb': {'impr_id': '2024111218531329F0F332D3F21B401E8B'}, 'status_code': 5, 'status_msg': ''}
+2024-11-12 13:53:28,506 - TikTokApi.tiktok - ERROR - Got an unexpected status code: {'log_pb': {'impr_id': '20241112185327F8A48F98B980FB41D750'}, 'status_code': 5, 'status_msg': ''}
+2024-11-12 13:53:28,506 - TikTokApi.tiktok - ERROR - Got an unexpected status code: {'log_pb': {'impr_id': '20241112185327F8A48F98B980FB41D750'}, 'status_code': 5, 'status_msg': ''}
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+Traceback (most recent call last):
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 17, in <module>
+    asyncio.run(main())
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/runners.py", line 44, in run
+    return loop.run_until_complete(main)
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/asyncio/base_events.py", line 642, in run_until_complete
+    return future.result()
+  File "/Users/anqi/TikTok-Api/SelfLearning/main.py", line 11, in main
+    await update_trending_comments()
+  File "/Users/anqi/TikTok-Api/SelfLearning/word2vec.py", line 36, in update_trending_comments
+    all_comments = await get_comments_for_videos(video_ids)
+  File "/Users/anqi/TikTok-Api/SelfLearning/get_comments.py", line 78, in get_comments_for_videos
+    async for comment in video.comments(count=30):
+  File "/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/TikTokApi/api/video.py", line 276, in comments
+    for video in resp.get("comments", []):
+TypeError: 'NoneType' object is not iterable
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
+2024-11-12 13:55:40,493 - TikTokApi.tiktok - ERROR - Failed to create Sound with data: {'ExploreCategoryType': 120, 'containerType': 2, 'createTime': 0, 'desc': '', 'digged': False, 'forFriend': False, 'id': '', 'itemCommentStatus': 0, 'liveRoomInfo': {'coverUrl': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3edb6086d897eab8d6761b94f86b6858~c5_720x720.webp?lk3s=a5d48078&nonce=16262&refresh_token=421088729b5782f63c0cc21ea5aed365&x-expires=1731607200&x-signature=%2B9o6UVvQf7Oor5xLfrgqWUWHz1M%3D&shp=a5d48078&shcp=fdd36af4', 'followStatus': 0, 'fypRoomTag': {'tag': [{'content': 'LIVE now', 'da_info': '', 'id': 4, 'recommond_info': '', 'style': 1}]}, 'landscape': 2, 'likeCount': 1837, 'liveRoomStats': {'userCount': 17}, 'liveSubOnly': 0, 'liveUrl': '', 'mode': 0, 'ownerInfo': {'avatarLarger': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3edb6086d897eab8d6761b94f86b6858~c5_1080x1080.jpeg?lk3s=a5d48078&nonce=75770&refresh_token=a731de69ca0e56c87b2e9087dcda76df&x-expires=1731607200&x-signature=THZU5FsI41ggypxwOBQZWiOgo5s%3D&shp=a5d48078&shcp=81f88b70', 'avatarMedium': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3edb6086d897eab8d6761b94f86b6858~c5_720x720.jpeg?lk3s=a5d48078&nonce=61784&refresh_token=ebab17413e8aea81bf6fd4229b73b77b&x-expires=1731607200&x-signature=7GlZqshtJ2FHxcSDQNhNPCkflLI%3D&shp=a5d48078&shcp=81f88b70', 'avatarThumb': 'https://p16-sign-va.tiktokcdn.com/tos-maliva-avt-0068/3edb6086d897eab8d6761b94f86b6858~c5_100x100.jpeg?lk3s=a5d48078&nonce=70182&refresh_token=3599c86bdb1738344fe2fbcbce736234&x-expires=1731607200&x-signature=3wPJASEyfxjmO2kyeZGHFqaHcjs%3D&shp=a5d48078&shcp=81f88b70', 'ftc': False, 'id': '6541468263107269632', 'nickname': 'K l o e _ L a n g l o i s  9 8', 'openFavorite': False, 'privateAccount': False, 'relation': 0, 'secret': False, 'signature': '', 'uniqueId': 'kloe_langlois', 'verified': False}, 'roomID': '7436452970982198071', 'shareCount': 2, 'status': 2, 'streamData': '{"common":{"session_id":"000-202411121855371177BF485DF536408D81","rule_ids":"{\\"ab_version_trace\\":null,\\"sched\\":\\"{\\\\\\"result\\\\\\":{\\\\\\"hit\\\\\\":\\\\\\"default\\\\\\",\\\\\\"cdn\\\\\\":107}}\\"}","peer_anchor_level":7},"data":{"origin":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_or4.flv?expire=1732647339\\u0026sign=2aeca16c499c15583f6f94d575a2cea8","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498340849844297_or4/index.m3u8?expire=1732647339\\u0026sign=1154d619aeb663fedfa7e0d70ea0b4a0","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_or4/index.mpd?expire=1732647339\\u0026sign=1ebbdcbe5434e7ea1540088f5892d97b","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_or4.sdp?expire=1732647339\\u0026sign=82189c8e312499e64cc0227822c6f0ee","tsl":"","tile":"","sdk_params":"{\\"vbitrate\\":1000000,\\"resolution\\":\\"1080x1920\\",\\"gop\\":4,\\"stream_suffix\\":\\"or4\\",\\"VCodec\\":\\"h264\\"}"}},"sd":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_sd.flv?expire=1732647339\\u0026sign=fc6f4ad3e431cfa2d801f307c58e0914","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498340849844297_sd/index.m3u8?expire=1732647339\\u0026sign=b1deb18e4e42127283fe02084744171d","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_sd/index.mpd?expire=1732647339\\u0026sign=1709f129836eca0cf29301e60b0c8bde","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_sd.sdp?expire=1732647339\\u0026sign=1e2997ae26357f87188da796b6cc6d18","tsl":"","tile":"","sdk_params":"{\\"v_rtpsnr\\":0,\\"v_rtbitrate_timestamp\\":1731436968739,\\"stream_suffix\\":\\"sd\\",\\"VCodec\\":\\"h264\\",\\"vbitrate\\":800000,\\"resolution\\":\\"480x853\\",\\"gop\\":0,\\"v_rtbitrate\\":829650}"}},"ld":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_ld.flv?expire=1732647339\\u0026sign=d2b7b063bf57371e263ad18ccf51a70b","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498340849844297_ld/index.m3u8?expire=1732647339\\u0026sign=161caa6a1f7e7a169149104c0b4db7cf","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_ld/index.mpd?expire=1732647339\\u0026sign=9409a773f04c8246c772a58cb3097002","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_ld.sdp?expire=1732647339\\u0026sign=97405c4464c40a7d9df6723b63c7f99d","tsl":"","tile":"","sdk_params":"{\\"gop\\":0,\\"stream_suffix\\":\\"ld\\",\\"vbitrate\\":500000,\\"VCodec\\":\\"h264\\",\\"resolution\\":\\"480x853\\"}"}},"hd":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_hd.flv?expire=1732647339\\u0026sign=849ee38fb6331c85979b3e7aaa4527ad","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498340849844297_hd/index.m3u8?expire=1732647339\\u0026sign=1639f2e1ef6dfb3a25693be897efe91f","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_hd/index.mpd?expire=1732647339\\u0026sign=4a3afc0106a48bf3731b4b5920c03353","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_hd.sdp?expire=1732647339\\u0026sign=7298bcdf18bcbb027f2cdcce6b3d52ba","tsl":"","tile":"","sdk_params":"{\\"VCodec\\":\\"h264\\",\\"resolution\\":\\"540x960\\",\\"gop\\":0,\\"stream_suffix\\":\\"hd\\",\\"vbitrate\\":1000000}"}},"uhd":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_uhd.flv?expire=1732647339\\u0026sign=a7dcc7d5ab75c0be28612ebd78c7f9fe","hls":"https://pull-hls-f16-va01.tiktokcdn.com/stage/stream-2998498340849844297_uhd/index.m3u8?expire=1732647339\\u0026sign=78541b350b91bdf91644fb75622fccb6","cmaf":"https://pull-cmaf-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_uhd/index.mpd?expire=1732647339\\u0026sign=45d46664b79b9673cb3b6d7f48f5d9f1","dash":"","lls":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297_uhd.sdp?expire=1732647339\\u0026sign=bb0fe13eaa7055209537927cb7eec61a","tsl":"","tile":"","sdk_params":"{\\"VCodec\\":\\"h264\\",\\"vbitrate\\":1000000,\\"resolution\\":\\"720x1280\\",\\"gop\\":0,\\"v_rtbitrate\\":1025930.0000000001,\\"v_rtpsnr\\":0,\\"v_rtbitrate_timestamp\\":1731434629290,\\"stream_suffix\\":\\"uhd\\"}"}},"ao":{"main":{"flv":"https://pull-f5-va01.tiktokcdn.com/stage/stream-2998498340849844297.flv?expire=1732647339\\u0026sign=feb077391b7c5cda2deee245328a8ed9\\u0026only_audio=1","hls":"","cmaf":"","dash":"","lls":"","tsl":"","tile":"","sdk_params":"{\\"VCodec\\":\\"h264\\",\\"vbitrate\\":0,\\"resolution\\":\\"\\",\\"gop\\":4}"}}}}', 'title': 'Salut'}, 'officalItem': False, 'originalItem': False, 'privateItem': False, 'secret': False}
+
+2024-11-12 13:56:03,957 - TikTokApi.tiktok - ERROR - Got an unexpected status code: {'log_pb': {'impr_id': '202411121856021E1DBD244BC411412CF0'}, 'status_code': 5, 'status_msg': ''}
+2024-11-12 13:56:03,957 - TikTokApi.tiktok - ERROR - Got an unexpected status code: {'log_pb': {'impr_id': '202411121856021E1DBD244BC411412CF0'}, 'status_code': 5, 'status_msg': ''}
+/Users/anqi/TikTok-Api/.venv/lib/python3.9/site-packages/urllib3/__init__.py:35: NotOpenSSLWarning: urllib3 v2 only supports OpenSSL 1.1.1+, currently the 'ssl' module is compiled with 'LibreSSL 2.8.3'. See: https://github.com/urllib3/urllib3/issues/3020
+  warnings.warn(
